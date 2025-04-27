@@ -1,0 +1,348 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #043873;
+}
+.navbar{
+    width: 100%;
+    
+    background-color: #043873;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+.logo img{
+    width: 150px;
+    margin-top: 5px;
+}
+.navlinks{
+    display: flex;
+    gap: 50px ;
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbuttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.log{
+    background-color: #ffe492;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.tryfree{
+    background-color: #4f9cf9;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.intro{
+    background-color: #043873;
+    color: white;
+
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+
+}
+.done{
+    display: flex;
+
+    align-items: center;
+
+}
+.getdone{
+
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+}
+.getdone h1{
+font-size: xxx-large;
+}
+.getdone button{
+    background-color: #4f9cf9;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+.introimg{
+    
+    background-color: #043873;
+}
+.Projectmanagement{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.protext{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.protext h1{
+    font-size: xxx-large;
+}
+.prostart{
+    background-color: #4f9cf9;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+.conetivity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.context{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.context h1{
+    font-size: xxx-large;
+}
+.conbutton{
+    background-color: #4f9cf9;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+.extension{
+    background-color: #043873;
+    width: 100%;
+    height: 320px;
+    color: white;
+    
+}
+.ext{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.extext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+}
+.exbutton{
+    background-color: #4f9cf9;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+.extext h1{
+    font-size: xxx-large;
+}
+.custom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.custtext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.custtext h1{
+    font-size: xxx-large;
+}
+.custbutton{
+    background-color: #4f9cf9;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+.plantext{
+    text-align: center;
+}
+.plantext h1{
+    font-size: xxx-large;
+    
+}
+.plancards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 30px;
+    
+}
+.cards{
+    border: 2px solid #fee391;
+    width: 430px;
+    height: 500px;
+    border-radius: 20px;
+    
+    
+line-height: 35px;
+    
+}
+.card1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card1 ul{
+    list-style: none;
+    
+}
+.card1 i{
+    margin-right: 15px;
+}
+.card1button{
+    background-color: white;
+    border: 1px solid  #fee391;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.card1 h2{
+    font-size: xxx-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card2{
+    
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #0a4086;
+    
+line-height: 35px;
+}
+.card22{
+margin-left: 30px;
+margin-top: 30px;
+
+
+
+}
+.card2 ul{
+    list-style: none;
+    
+}
+.card2 i{
+    margin-right: 15px;
+}
+.card2button{
+    background-color: white;
+    border: 2px solid #4f9cf9;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.card2 h2{
+    font-size: xxx-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card33{
+    border: 2px solid #fee391;
+    width: 430px;
+    height: 500px;
+    border-radius: 20px;
+line-height: 35px;
+    
+}
+.card33 p{
+    margin-left: 30px;
+
+
+}
+.card33 ul{
+    list-style: none;
+    margin-left: 30px;
+
+
+}
+.card33 i{
+    margin-right: 15px;
+}
+.card3button{
+    background-color: white;
+    border: 2px solid #fee391;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+
+}
+.card33 h2{
+    font-size: xxx-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+margin-top: 30px;
+
+}
+.card33 h1{
+    margin-left: 30px;
+margin-top: 30px;
+
+}
+.work{
+    width: 100%;
+    height: 500px;
+    background-color: #0a4086;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+}
+.everywhere{
+    text-align: center;
+   line-height: 70px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+    
+}
+.everywhere h1{
+    font-size: xxx-large;
+    color: white;
+    
+}
+.everywhere p{
+    line-height: normal;
+}
+.workbutton{
+    background-color: white;
+    background-color: #4f9cf9;;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
