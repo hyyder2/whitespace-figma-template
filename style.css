@@ -196,7 +196,7 @@ gap: 30px;
 }
 .cards{
     border: 2px solid #fee391;
-    width: 430px;
+    width: 25%;
     height: 500px;
     border-radius: 20px;
     
@@ -230,7 +230,7 @@ line-height: 35px;
 }
 .card2{
     
-    width: 500px;
+    width: 35%;
     height: 600px;
     border-radius: 20px;
     background-color: #0a4086;
@@ -267,7 +267,7 @@ margin-top: 30px;
 
 .card33{
     border: 2px solid #fee391;
-    width: 430px;
+    
     height: 500px;
     border-radius: 20px;
 line-height: 35px;
@@ -345,4 +345,236 @@ margin-top: 30px;
     height: 50px;
     border-radius: 5px;
     
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.datatext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 30px;
+}
+.data h1{
+    font-size: xxx-large;
+}
+.datatext h1 {
+    background-image: url(./images/yellow\ undermark.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.databutton{
+    background-color: white;
+    background-color: #4f9cf9;;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+.sponsors{
+    padding-top: 180px;
+}
+.sponsors h1{
+    font-size: xx-large;
+
+}
+.spontext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0px;
+}
+.spontext h1{
+    font-size: xxx-large;
+    text-align: center;
+    background-image: url(./images/yellow\ undermark.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.sponlogo{
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+  .clientsre{  
+    padding: 80px 0px;
+  }  
+
+
+.clients{
+    text-align: center;
+    font-size: xxx-large;
+    background-image: url(./images/yellow\ undermark.png);
+    background-repeat: no-repeat;
+    
+    background-position: bottom;
+    padding-top: 180px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;    
+
+}
+.recards{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.reimage{
+    border-radius: 50%;
+}
+.recards hr{
+    width: 80%;
+    margin: 0px auto;
+}
+.recards{
+    box-shadow: 2px 2px 1px black;
+    border: 3px solid whitesmoke;
+}
+.card1 i{
+    
+    font-size: x-large;
+    color: #0a4086;
+}
+.cardmain{
+    display: flex;
+    
+    justify-content: center;
+    gap: 10px;
+}
+.recards1{
+    width: 400px;
+    height: 300px;
+    background-color: #4f9cf9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.recards1{
+    box-shadow: 2px 2px 2px black;
+}
+
+#chan{
+    color: white;
+}
+ .recards1 hr{
+    width: 80%;
+    margin: 0px auto;
+}
+    
+.cardmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    background-color: #0a4086;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    
+}
+.footer h1{
+    font-size: xxx-large;
+    text-align: center;
+}
+.footerbutton{
+    background-color: white;
+    background-color: #4f9cf9;;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+.footicon{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+#footi{
+font-size: xx-large;
+}
+.foottext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footernav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product a{
+    color: white;
+    text-decoration: none ;
+}
+.try{
+    display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.trybutton{
+    background-color: white;
+    background-color: #4f9cf9;;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.last a{
+    color: white;
+    text-decoration: none;
+}
+.lastlogo{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 50px;
+
+}
+.footer hr{
+    width: 90%;
+    margin-top: 30px;
+    align-self: center;
+    color: #294c73;
 }
